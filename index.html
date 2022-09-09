@@ -175,6 +175,7 @@
         const modal = document.querySelector('.modal');
         const close_button = document.querySelectorAll('.js-close');
 
+
         function Showmodal(){
             modal.classList.add("open");
         }
@@ -182,7 +183,6 @@
         function Closemodal(){
             modal.classList.remove("open");
         }
-
         buyBtns.forEach(buyBtn => {
             buyBtn.addEventListener('click', Showmodal);
         } );
@@ -190,7 +190,11 @@
             btn.addEventListener('click', Closemodal);
         }
         );
-        modal.addEventListener('click',Closemodal)
+        window.onclick = function(event){
+            if (event.target == modal){
+                Closemodal();
+            }
+        }
     </script>
 </body>
 </html>
