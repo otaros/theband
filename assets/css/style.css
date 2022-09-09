@@ -26,6 +26,12 @@ html{
 .col-one-third{
     width: 33.3333333333%;
 }
+.half{
+    width: 50%;
+}
+.float-left{
+    float: left;
+}
 #main{
     width: 100%;
     height: 100vh;
@@ -421,6 +427,53 @@ input::placeholder{
     box-sizing: inherit;
 }
 
+.get-info{
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    line-height: 1.5;
+}
+
+.info{
+    float: left;
+    width: 50%;
+    box-sizing: inherit;
+    text-align: left;
+}
+.send-info{
+    float: left;
+    width: 50%;
+    box-sizing: inherit;
+}
+
+.submit-button{
+    float: right;
+    margin-top: 15px;
+    padding: 8px 16px;
+    border: none;
+    background-color: #000000;
+    color: white;
+    font-size: 15px;
+}
+
+.submit-button:hover{
+    background-color: #cccccc;
+    cursor: pointer;
+    color: black;
+}
+
+.input-info{
+    margin-bottom: 16px;
+    
+}
+
+.wrapper{
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
 #footer{
 
 }
@@ -435,3 +488,4 @@ input::placeholder{
         transform: translateY(0);
     }
 }
+
