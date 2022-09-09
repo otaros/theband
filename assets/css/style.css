@@ -131,6 +131,7 @@ html{
     font-size: 15px;
     margin-top: 20px;
 }
+
 #slider .text-content{
     width: 100%;
     color: white;
@@ -167,18 +168,21 @@ html{
     font-style: italic;
     opacity: .7;
 }
+
 #content .about{
     margin-top: 25px;
     font-size: 15px;
     text-align: justify;
     line-height: 1.4;
 }
+
 #content .member-list {
     margin-top: 48px;
     text-align: center;
     overflow: hidden;
 
 }
+
 #content .member{
     float: left;
     width: calc(100%/3);                                                    
@@ -188,17 +192,20 @@ html{
 #content .member-name{
     font-size: 14px;
 }
+
 #content .img-member{
     margin-top: 15px;
     width: 154px;
     border-radius: 4px;
 
 }
+
 .tour-section{
     background-color: black;
     width: 100%;
     height: 846px;
 }
+
 .ticket-list{
     margin-top: 50px;
     background-color: #fff;
@@ -207,17 +214,20 @@ html{
     width: 100%;
 
 }
+
 .ticket-list li{
     font-size: 15px;
     padding: 11px 16px;
     border-bottom: 1px solid #dddd;
 }
+
 .ticket-list .sold-out{
     background-color: red;
     color: white;
     padding: 3px;
     margin-left: 5px;
 }
+
 .ticket-list .quantities{
     width: 24px;
     height: 24px;
@@ -250,10 +260,12 @@ html{
     padding: 16px;
     font-size: 15px;
 }
+
 .place-heading{
     font-size:15px;
     font-weight: 600;
 }
+
 .place-time{
     margin-top: 15px;
     color: #757575;
@@ -263,6 +275,7 @@ html{
     margin-top: 15px;
     line-height: 1.4;
 }
+
 .place-list .buy-button{
     background-color: black;
     color: #fff;
@@ -275,6 +288,7 @@ html{
     font-size: 15px;
     
 }
+
 .place-list .buy-button:hover{
     background-color: #8d8a8a;
     cursor: pointer;
@@ -289,9 +303,11 @@ html{
     background-color: rgba(0, 0, 0, 0.3);
     display: none;
 }
+
 .modal.open{
     display: flex;
 }
+
 .container{
     margin-top: 100px;
     width: 900px;
@@ -313,6 +329,7 @@ html{
     font-weight: 500;
     font-family: Lato, sans-serif;
 }
+
 .modal .container-header button{
     background-color: #009688;
     border: none;
@@ -322,11 +339,13 @@ html{
     top: 0;
     position: absolute;
 }
+
 .modal .container-header button:hover{
     background-color: #cccccc;
     color: black;
     cursor: pointer;
 }
+
 .container-body{
     height: 343.3px;
     background-color: #fff;
@@ -356,6 +375,7 @@ input{
 input::placeholder{
     font-size: 15px;
 }
+
 .pay{
     width: 100%;
     background-color: #009688;
@@ -371,6 +391,7 @@ input::placeholder{
     color: black;
     cursor: pointer;
 }
+
 .close-button{
     background-color: red;
     color: #fff;
@@ -385,11 +406,13 @@ input::placeholder{
     border: none;
     display: block;
 }
+
 .close-button:hover{
     background-color: #cccccc;
     color: black;
     cursor: pointer;
 }
+
 .help{
     float: right;
     font-size: 15px;
@@ -397,6 +420,7 @@ input::placeholder{
     margin: 30px 0;
     box-sizing: inherit;
 }
+
 #footer{
 
 }
